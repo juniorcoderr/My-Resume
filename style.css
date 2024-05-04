@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #007bff;
+  margin-bottom: 5px;
+}
+
+h4 {
+  font-size: 24px;
+  color: #007bff;
+  margin-bottom: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.skills,
+.education,
+.projects,
+.experience,
+.achievements,
+.hobbies {
+  margin-bottom: 30px;
+}
+
+.skills ul,
+.achievements ul,
+.hobbies ul {
+  padding-left: 20px;
+}
+
+.skills ul li:before,
+.achievements ul li:before,
+.hobbies ul li:before {
+  content: "\2022"; /* Bullet point */
+  color: #007bff;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #007bff;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  color: #007bff; /* Default link color */
+  text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+a:visited {
+  color: #6c757d; /* Visited link color */
+}
+
+a:focus,
+a:active {
+  outline: none; /* Remove default focus outline */
+}
